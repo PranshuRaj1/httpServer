@@ -1,0 +1,10 @@
+config:
+  target: "http://localhost:3000" # Replace with your server's address or container IP
+  phases:
+    - duration: 100 # Duration of the test in seconds
+      arrivalRate: 10000 # Number of requests per second
+
+scenarios:
+  - flow:
+      - get:
+          url: "/data" # The route you want to test
