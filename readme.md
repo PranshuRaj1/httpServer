@@ -31,7 +31,7 @@ The server will start on `http://localhost:8000` by default. You can change the 
 
 ## Load Testing
 
-**Warning:** The load test script (`load_test.py`) is designed to simulate heavy traffic to the server. Running this script can consume significant system resources and may cause your laptop to become unresponsive or crash. Use with caution and ensure you have saved all your work before running the load test.
+**Warning:** The load test script is designed to simulate heavy traffic to the server. Running this script can consume significant system resources and may cause your laptop to become unresponsive or crash. Use with caution and ensure you have saved all your work before running the load test.
 
 ## Contributing
 
